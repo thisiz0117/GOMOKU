@@ -6,9 +6,9 @@ BOARD_SIZE = 15
 EMPTY, BLACK, WHITE = 0, 1, 2
 
 # --- 페이지 설정 ---
-st.set_page_config(page_title="AI 대전 오목", page_icon="⚫")
+st.set_page_config(page_title="GOMOKU!", page_icon="⚫")
 
-st.title("AI와 대결하는 오목 게임 🎮")
+st.title("GOMOKU!")
 st.write("**당신은 흑돌(⚫)이고, AI는 백돌(⚪)입니다.**")
 
 # --- 게임 상태 초기화 ---
